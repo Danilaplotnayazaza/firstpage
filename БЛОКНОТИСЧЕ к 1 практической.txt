@@ -1,0 +1,130 @@
+ a=3.5+4
+console.log('Время в часах:'+a);
+b=(3+4.5)*60;
+console.log('Время в минутах:'+b);
+console.log (typeof (3))
+console.log (typeof (2.5))
+console.log (typeof ('Hello,world'))
+console.log (typeof (true))
+
+ console.log (typeof ([50, 320, 480]))
+ console.log (typeof ({media: 'Twitter', time: 5}))
+
+  
+
+let time;
+time=7.5;
+console.log(time)
+
+let timeInHours;
+timeInHours=prompt('сколько часов ты провел в колледже,БЫДЛА?');
+console.log(timeInHours)// Проведено в КАЛЛЕДЖЕ часов
+let firstDay=3;
+let secondDay=4.5;
+console.log(firstDay + secondDay)
+console.log(secondDay - firstDay)
+console.log(firstDay/24*100)
+
+
+
+
+
+let studyInTwoDays=3+4.5;
+undefined
+ let timeInMinutes=studyInTwoDays*60;
+undefined
+console.log(timeInMinutes)
+VM295:1 450
+undefined
+let minutesLeftPerDay=(1800-timeInMinutes)/4
+undefined
+console.log(minutesLeftPerDay)
+VM459:1 337.5
+undefined
+
+
+
+
+let studyInTwoDays=3+4.5;
+let timeInMinutes=studyInTwoDays*60;
+console.log('Ты провел в колледже' + timeInMinutes + 'минут.');
+let minutesLeftPerDay=(1800-timeInMinutes)/4
+console.log('На этой неделе осталось примерно по ' + minutesLeftPerDay + ' минут в день.');
+
+
+let timeInHours=prompt('сколько часов ты провел в колледже?')
+let timeInMinutes=timeInHours*60
+console.log('на учебе проведено ' + timeInMinutes + ' минут!')
+
+
+let classmissed=prompt('Сколько пар ты пропустил?');
+let debt=classmissed*15*0.4;
+let message='За '+classmissed+' пропущенных, я должен пробежать '+debt+'км';
+console.log(message);
+
+let euroRate = 74;
+let dollarRate = 63;
+let euroAmount = 500;
+let dollarAmount = 2500;
+let rublesAmount=(euroAmount*euroRate)+(dollarAmount*dollarRate);
+console.log("Всего пнадобится ",rublesAmount, "рублей на поездку.")
+
+
+let travelCost = 150000;
+let balance = 100000;
+let debtAmount=travelCost-balance;
+console.log("После поездки тебе придется отдать банку", debtAmount*2, "рублей.")
+
+
+let flightDistance = 7260;
+let averageSpeed = 600;
+let flightTime=Math.round(flightDistance/averageSpeed);
+console.log("Время полета составит примерно", flightTime, "часов.");
+
+let routeDistance = 78;
+let averageSpeed = 80;
+let routeDistanceKm= routeDistance*1.6;
+let routeTime=Math.round(routeDistanceKm/averageSpeed);
+console.log("Время поездки составит примерно",routeTime,"часов.");
+
+
+let fahrenheitTemperature = 77;
+let celsiusTemperature=5/9*(fahrenheitTemperature-32);
+console.log(celsiusTemperature)
+
+let height = 1.83;
+let weight = 75;
+let fatMass = 0.8;
+let fatPercent=(fatMass/weight)*100;
+console.log(Math.round(fatPercent));
+let bodyMassIndex=Math.round(weight/(height**2));
+console.log(bodyMassIndex);
+
+ let firstLeg = 300;
+let secondLeg = 700;
+hypotenuse =Math.round(Math.sqrt(firstLeg^2 + secondLeg^2));
+console.log(hypotenuse);
+let perimeter= firstLeg+secondLeg+hypotenuse
+console.log(perimeter);
+
+  let age = 17;
+let pulseAtRest = 60;
+let intensity = 75;
+let maxHeartRate=200-age;
+let pulseAtWorkout=((maxHeartRate-pulseAtRest)*(intensity/100))+pulseAtRest;
+console.log(Math.round(pulseAtWorkout))
+
+
+let weight = 75;
+let height= 183;
+let age = 25;
+let activityRate = 1.725
+let metabolismRate= 88.362 + (13.397 * weight) + (4.799 * height) - (5.677 * age);
+let calorieRate= Math.round(metabolismRate*activityRate);
+let proteins= Math.round(calorieRate*0.4);
+let fats= Math.round(calorieRate*0.25);
+let carbonydrates= Math.round(calorieRate*0.35);
+console.log('Норма калорий составляет: ' + calorieRate);
+console.log('Норма белков составляет: '+ proteins);
+console.log('Норма жиров составляет: ' + fats);
+console.log('Норма углеводов составляет: ' + carbonydrates);
