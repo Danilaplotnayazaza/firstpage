@@ -1,5 +1,122 @@
  let optimalTime=80;
 let walkTime=80;
-if(walkTime >= optimalTime){console.log('�������� ���������� �������')}
-else {console.log('����� ��� ��������')}
+if(walkTime >= optimalTime){console.log('Прогулка достаточно длинная')}
+else {console.log('Нужно еще погулять')}
+
+string = '123'
+number = 123
+console.log (string !== number)
+
+ string = '123'
+number = 123
+console.log (string === String(number))
+
+string = '123'
+number = 123
+console.log (Number(string) === number)
+
+
+let optimalTime=80;
+let walkTime=10;
+ let timeLeft=optimalTime-walkTime;
+if(walkTime >= optimalTime){console.log('Прогулка достаточно длинная')}
+else{console.log('Нужно погулять еще '+ timeLeft + ' минут.')}
+
+let enoughDevelopers= true
+let techAvailable= false
+let message='Проект нельзя выполнить'
+if (enoughDevelopers) {if(techAvailable){message='Проект можно выполнить';}}
+techAvailable=true
+console.log(message)
+
+let onVacation = false;
+let onSickLeave = true;
+let enoughDevelopers= true;
+let techAvailable=false;
+if (enoughDevelopers && techAvailable){console.log('проект можно выполнить')}
+if (onVacation|| onSickLeave){console.log('проект нельзя выполнить')}
+
+let onVacation = true;
+let onSickLeave = true;
+let enoughDevelopers= true;
+let techAvailable=true;
+if (enoughDevelopers && techAvailable){console.log('проект можно выполнить')}
+if (!onVacation||!onSickLeave){console.log('проект нельзя выполнить')}
+
+
+let onVacation = true;
+let onSickLeave = false;
+let enoughDevelopers= true;
+let techAvailable=true;
+if (enoughDevelopers && techAvailable&& !onVacation && !onSickLeave) {console.log('проект можно выполнить')}
+else {console.log('проект нельзя выполнить')}
+ 
+
+ let temperature = 5;
+let isRaining = false;
+let minutes = 0;
+if(isRaining){minutes=0;}
+else{
+if(temperature>=10 && temperature<15){minutes=30;}
+else if(temperature>=15 && temperature<25){minutes=40;}
+else if(temperature>=25 && temperature<35){minutes=20;}
+}
+console.log(minutes);
+
+
+ let age =21;
+let ageGroup;
+if(age<=11){ageGroup='Дети';}
+else if(age<=15){ageGroup='Юниоры';}
+else if(age<=18){ageGroup='Молодежь';}
+else {ageGroup='Взрослые';}
+
+ let weight = 50;
+let recommendation;
+if(weight<48){recommendation='Пора перекусить';}
+else if(weight>=48 && weight <=54){recommendation='Вес в норме';}
+else{recommendation='Пора на тренировку';}
+console.log(recommendation)
+
+
+let number = 10;
+let taskResult;
+if(number%3===0 && number%5===0){taskResult='FizzBuzz';}
+else if(number%3===0){taskResult='Fizz';}
+else if(number%5===0){taskResult='Buzz';}
+else{taskResult=number;}
+console.log(taskResult)
+
+
+let price = 1000;
+let discountedPrice;
+if(price>=1000 && price<3000){discountedPrice=price*0.95;}
+else if(price>=3000 && price<5000){discountedPrice=price*0.9;}
+else if(price>=5000){discountedPrice=price*0.85;}
+else{discountedPrice=price;}
+console.log('Покупка со скидкой: ' +discountedPrice);
+
+
+let time = 12;
+let goToDairy = false;
+let goToStore = false;
+let goToMarket = false;
+if(time>=8 && time<13 || time>=14 && time<19){goToDairy=true;}
+else if(time>=9 && time<14 || time>=15 && time<17){goToStore=true;}
+else if(time>=7 && time<20){goToMarket=true;}
+console.log('Фабрика: '+ goToDairy);
+console.log('Магазин: '+ goToStore);
+console.log('Рынок: '+ goToMarket);
+
+
+let temperature = 40
+let itsRaining=false;
+let minutes;
+if(itsRaining || temperature<0 || temperature>35){minutes=0;}
+else if(temperature===20){minutes=20;}
+else{let idealTemperature=20;
+let temperatureDifference=Math.abs(idealTemperature-temperature);
+    minutes=20-temperatureDifference;}
+console.log('Время прогулки: '+ minutes +' минут.');
+
 
