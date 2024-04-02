@@ -1,7 +1,7 @@
- a=3.5+4
-console.log('Время в часах:'+a);
+a=3.5+4
+console.log('Р’СЂРµРјСЏ РІ С‡Р°СЃР°С…:'+a);
 b=(3+4.5)*60;
-console.log('Время в минутах:'+b);
+console.log('Р’СЂРµРјСЏ РІ РјРёРЅСѓС‚Р°С…:'+b);
 console.log (typeof (3))
 console.log (typeof (2.5))
 console.log (typeof ('Hello,world'))
@@ -17,8 +17,8 @@ time=7.5;
 console.log(time)
 
 let timeInHours;
-timeInHours=prompt('сколько часов ты провел в колледже,БЫДЛА?');
-console.log(timeInHours)// Проведено в КАЛЛЕДЖЕ часов
+timeInHours=prompt('СЃРєРѕР»СЊРєРѕ С‡Р°СЃРѕРІ С‚С‹ РїСЂРѕРІРµР» РІ РєРѕР»Р»РµРґР¶Рµ,Р‘Р«Р”Р›Рђ?');
+console.log(timeInHours)// РџСЂРѕРІРµРґРµРЅРѕ РІ РљРђР›Р›Р•Р”Р–Р• С‡Р°СЃРѕРІ
 let firstDay=3;
 let secondDay=4.5;
 console.log(firstDay + secondDay)
@@ -47,19 +47,19 @@ undefined
 
 let studyInTwoDays=3+4.5;
 let timeInMinutes=studyInTwoDays*60;
-console.log('Ты провел в колледже' + timeInMinutes + 'минут.');
+console.log('РўС‹ РїСЂРѕРІРµР» РІ РєРѕР»Р»РµРґР¶Рµ' + timeInMinutes + 'РјРёРЅСѓС‚.');
 let minutesLeftPerDay=(1800-timeInMinutes)/4
-console.log('На этой неделе осталось примерно по ' + minutesLeftPerDay + ' минут в день.');
+console.log('РќР° СЌС‚РѕР№ РЅРµРґРµР»Рµ РѕСЃС‚Р°Р»РѕСЃСЊ РїСЂРёРјРµСЂРЅРѕ РїРѕ ' + minutesLeftPerDay + ' РјРёРЅСѓС‚ РІ РґРµРЅСЊ.');
 
 
-let timeInHours=prompt('сколько часов ты провел в колледже?')
+let timeInHours=prompt('СЃРєРѕР»СЊРєРѕ С‡Р°СЃРѕРІ С‚С‹ РїСЂРѕРІРµР» РІ РєРѕР»Р»РµРґР¶Рµ?')
 let timeInMinutes=timeInHours*60
-console.log('на учебе проведено ' + timeInMinutes + ' минут!')
+console.log('РЅР° СѓС‡РµР±Рµ РїСЂРѕРІРµРґРµРЅРѕ ' + timeInMinutes + ' РјРёРЅСѓС‚!')
 
 
-let classmissed=prompt('Сколько пар ты пропустил?');
+let classmissed=prompt('РЎРєРѕР»СЊРєРѕ РїР°СЂ С‚С‹ РїСЂРѕРїСѓСЃС‚РёР»?');
 let debt=classmissed*15*0.4;
-let message='За '+classmissed+' пропущенных, я должен пробежать '+debt+'км';
+let message='Р—Р° '+classmissed+' РїСЂРѕРїСѓС‰РµРЅРЅС‹С…, СЏ РґРѕР»Р¶РµРЅ РїСЂРѕР±РµР¶Р°С‚СЊ '+debt+'РєРј';
 console.log(message);
 
 let euroRate = 74;
@@ -67,25 +67,25 @@ let dollarRate = 63;
 let euroAmount = 500;
 let dollarAmount = 2500;
 let rublesAmount=(euroAmount*euroRate)+(dollarAmount*dollarRate);
-console.log("Всего пнадобится ",rublesAmount, "рублей на поездку.")
+console.log("Р’СЃРµРіРѕ РїРЅР°РґРѕР±РёС‚СЃСЏ "+rublesAmount+ "СЂСѓР±Р»РµР№ РЅР° РїРѕРµР·РґРєСѓ.")
 
 
 let travelCost = 150000;
 let balance = 100000;
 let debtAmount=travelCost-balance;
-console.log("После поездки тебе придется отдать банку", debtAmount*2, "рублей.")
+console.log("РџРѕСЃР»Рµ РїРѕРµР·РґРєРё С‚РµР±Рµ РїСЂРёРґРµС‚СЃСЏ РѕС‚РґР°С‚СЊ Р±Р°РЅРєСѓ"+ debtAmount*2+ "СЂСѓР±Р»РµР№.")
 
 
 let flightDistance = 7260;
 let averageSpeed = 600;
 let flightTime=Math.round(flightDistance/averageSpeed);
-console.log("Время полета составит примерно", flightTime, "часов.");
+console.log("Р’СЂРµРјСЏ РїРѕР»РµС‚Р° СЃРѕСЃС‚Р°РІРёС‚ РїСЂРёРјРµСЂРЅРѕ"+ flightTime+ "С‡Р°СЃРѕРІ.");
 
 let routeDistance = 78;
 let averageSpeed = 80;
 let routeDistanceKm= routeDistance*1.6;
 let routeTime=Math.round(routeDistanceKm/averageSpeed);
-console.log("Время поездки составит примерно",routeTime,"часов.");
+console.log("Р’СЂРµРјСЏ РїРѕРµР·РґРєРё СЃРѕСЃС‚Р°РІРёС‚ РїСЂРёРјРµСЂРЅРѕ"+routeTime+"С‡Р°СЃРѕРІ.");
 
 
 let fahrenheitTemperature = 77;
@@ -124,7 +124,9 @@ let calorieRate= Math.round(metabolismRate*activityRate);
 let proteins= Math.round(calorieRate*0.4);
 let fats= Math.round(calorieRate*0.25);
 let carbonydrates= Math.round(calorieRate*0.35);
-console.log('Норма калорий составляет: ' + calorieRate);
-console.log('Норма белков составляет: '+ proteins);
-console.log('Норма жиров составляет: ' + fats);
-console.log('Норма углеводов составляет: ' + carbonydrates);
+console.log('РќРѕСЂРјР° РєР°Р»РѕСЂРёР№ СЃРѕСЃС‚Р°РІР»СЏРµС‚: ' + calorieRate);
+console.log('РќРѕСЂРјР° Р±РµР»РєРѕРІ СЃРѕСЃС‚Р°РІР»СЏРµС‚: '+ proteins);
+console.log('РќРѕСЂРјР° Р¶РёСЂРѕРІ СЃРѕСЃС‚Р°РІР»СЏРµС‚: ' + fats);
+console.log('РќРѕСЂРјР° СѓРіР»РµРІРѕРґРѕРІ СЃРѕСЃС‚Р°РІР»СЏРµС‚: ' + carbonydrates);
+ 
+  
