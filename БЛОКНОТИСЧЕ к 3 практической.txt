@@ -1,20 +1,20 @@
-let sheepCounted=0;
-while (sheepCounted<10) { console.log("Посчитано овец: " + sheepCounted + "!");
+  let sheepCounted=0;
+while (sheepCounted<10) { console.log("РџРѕСЃС‡РёС‚Р°РЅРѕ РѕРІРµС†: " + sheepCounted + "!");
 sheepCounted ++}
 
 
  let sheepCounted=0;
-while (sheepCounted<10) { console.log("Посчитано овец: " + sheepCounted + "!");
+while (sheepCounted<10) { console.log("РџРѕСЃС‡РёС‚Р°РЅРѕ РѕРІРµС†: " + sheepCounted + "!");
 sheepCounted ++;}
-console.log('Я уснуль!');
+console.log('РЇ СѓСЃРЅСѓР»СЊ!');
 
-for (let sheepCounted=0; sheepCounted<10; sheepCounted++) {console.log("Посчитано овец: " + sheepCounted + "!");}
-console.log('Я уснуль!');
+for (let sheepCounted=0; sheepCounted<10; sheepCounted++) {console.log("РџРѕСЃС‡РёС‚Р°РЅРѕ РѕРІРµС†: " + sheepCounted + "!");}
+console.log('РЇ СѓСЃРЅСѓР»СЊ!');
 
 
-let myName = ["Д", "а", "н", "и","л","а"];
+let myName = ["Р”", "Р°", "РЅ", "Рё","Р»","Р°"];
 for (let i = 0; i < myName.length; i++) {
-console.log("В моем имени есть буква " + myName[i] + ".");
+console.log("Р’ РјРѕРµРј РёРјРµРЅРё РµСЃС‚СЊ Р±СѓРєРІР° " + myName[i] + ".");
 }
 
  for (var x = 3; x < 10000; x = x*3) {
@@ -24,8 +24,8 @@ var x=3
  while(x < 10000){console.log(x);
  x=x*3;}
 
-animals = ["Кот", "Рыба", "Лемур", "Комодский варан"];
-for(let i=0; i<animals.length; i++){animals[i]=animals[i]+"-прекрасное животное";}
+animals = ["РљРѕС‚", "Р С‹Р±Р°", "Р›РµРјСѓСЂ", "РљРѕРјРѕРґСЃРєРёР№ РІР°СЂР°РЅ"];
+for(let i=0; i<animals.length; i++){animals[i]=animals[i]+"-РїСЂРµРєСЂР°СЃРЅРѕРµ Р¶РёРІРѕС‚РЅРѕРµ";}
 console.log(animals);
 
 let passAlphabet= "abcdefghijklmnopqrstuvwxyz0123456789";
@@ -57,12 +57,12 @@ for(let i=1; i<=days; i++){
 if(i%2===0){total+=evenDayAmount;}
 else{total+=oddDayAmount;}
 }
-console.log("Потребленный протеин за "+ days+ " дней: "+total+" грамм");
+console.log("РџРѕС‚СЂРµР±Р»РµРЅРЅС‹Р№ РїСЂРѕС‚РµРёРЅ Р·Р° "+ days+ " РґРЅРµР№: "+total+" РіСЂР°РјРј");
 
 
 
-let initialWeight = 70000; // Исходный вес в граммах
-let targetWeight = 50000; // Желанный вес в граммах
+let initialWeight = 70000; // РСЃС…РѕРґРЅС‹Р№ РІРµСЃ РІ РіСЂР°РјРјР°С…
+let targetWeight = 50000; // Р–РµР»Р°РЅРЅС‹Р№ РІРµСЃ РІ РіСЂР°РјРјР°С…
 let days=0;
 while(initialWeight>targetWeight){initialWeight-=initialWeight*0.05;days++;}
-console.log("Дней для похудения: "+days);
+console.log("Р”РЅРµР№ РґР»СЏ РїРѕС…СѓРґРµРЅРёСЏ: "+days);
